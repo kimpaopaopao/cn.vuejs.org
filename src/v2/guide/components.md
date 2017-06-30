@@ -889,7 +889,7 @@ Vue.component('child-component', {
 作用域插槽更具代表性的用例是列表组件，允许组件自定义应该如何渲染列表每一项：
 
 ``` html
-<my-awesome-list :items="items">
+<my-awesome-list>
   <!-- 作用域插槽也可以是具名的 -->
   <template slot="item" scope="props">
     <li class="my-fancy-item">{{ props.text }}</li>
